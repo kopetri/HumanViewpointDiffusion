@@ -1,0 +1,8 @@
+diffusers[torch]
+transformers
+xformers
+opencv-contrib-python
+controlnet_aux
+lightning
+wandb
+pytorch_utils @ git+https://github.com/kopetri/PyTorch-Learning-Utils

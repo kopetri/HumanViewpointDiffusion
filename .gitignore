@@ -1,0 +1,13 @@
+*.pt
+wandb/
+venv/
+thinkdiffusion/
+test/
+__pycache__
+*.npy
+Viewpoint Estimator/
+modelnet28/
+human_view_preferences/
+human_view_preferences.zip
+jobs.txt
+train.ps1
