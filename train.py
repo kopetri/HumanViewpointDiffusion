@@ -14,6 +14,7 @@ if __name__ == "__main__":
     trainer.add_argument("--lr_patience", default=10, type=int)
     trainer.add_argument("--factor", default=0.1, type=float)
     trainer.add_argument("--weight_decay", default=0.3, type=float)
+    trainer.add_argument("--dropout", default=0.5, type=float)
     
     args = trainer.setup()
     

@@ -3,6 +3,6 @@ transformers
 xformers
 opencv-contrib-python
 controlnet_aux
-lightning
+lightning==2.0.1
 wandb
 pytorch_utils @ git+https://github.com/kopetri/PyTorch-Learning-Utils

@@ -5,7 +5,7 @@ import torch
 class ViewpointModule(LightningModule):
     def __init__(self, opt=None, **kwargs):
         super().__init__(opt, **kwargs)
-        self.network = ViewpointModel()
+        self.network = ViewpointModel(dropout=self.opt.dropout)
         self.criterion = torch.nn.MSELoss()
         
     def forward(self, batch, batch_idx, split):
